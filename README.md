@@ -8,8 +8,10 @@ Steps followed:
 *As Root*
 ```
 1. Create the Nginx deploy YAML file
+$ kubectl apply -f Deploy.yaml --record
 
 2. Create the NodePort Service YAML file
+$ kubectl apply -f service.yaml --record
 
 3. Checout the service created and the corresponding IP Address.
 $ kubectl describe service
