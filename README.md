@@ -17,5 +17,5 @@ $ kubectl describe service
 4. Try accessing the Nginx server with the service
 $ curl 10.108.171.109:9000 |grep title
 
-*As Root*
 ```
+*As Root*
