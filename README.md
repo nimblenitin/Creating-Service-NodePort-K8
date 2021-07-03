@@ -11,11 +11,11 @@ Steps followed:
 
 2. Create the NodePort Service YAML file
 
-3. Checout the service created.
+3. Checout the service created and the corresponding IP Address.
 $ kubectl describe service
 
 4. Try accessing the Nginx server with the service
-$ curl 10.108.171.109:9000 |grep title
+$ curl <Service IP address>:9000 |grep title
 
 ```
 *As Root*
